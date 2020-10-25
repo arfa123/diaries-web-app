@@ -40,7 +40,9 @@ const signup = (schema: any, req: Request): AuthResponse | Response => {
 	};
 };
 
-export default {
+const userObj = {
 	login,
-	signup,
+	signup
 };
+
+export default userObj;
